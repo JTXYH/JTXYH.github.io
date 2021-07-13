@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SpringCloudAlibaba | 极客小祥</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    <link rel="icon" href="/favicon.ico">
+    <script language="javascript" type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/js/MouseClickEffect.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
+    <meta name="description" content="JAVA企业级框架">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="preload" href="/assets/css/0.styles.a981b4ce.css" as="style"><link rel="preload" href="/assets/js/app.52ca2be6.js" as="script"><link rel="preload" href="/assets/js/3.42113961.js" as="script"><link rel="preload" href="/assets/js/1.b24bece2.js" as="script"><link rel="preload" href="/assets/js/113.f0b58158.js" as="script"><link rel="preload" href="/assets/js/8.48e90622.js" as="script"><link rel="prefetch" href="/assets/js/10.1082e089.js"><link rel="prefetch" href="/assets/js/100.11cf2d66.js"><link rel="prefetch" href="/assets/js/101.8f1567b2.js"><link rel="prefetch" href="/assets/js/102.c5aee8a4.js"><link rel="prefetch" href="/assets/js/103.f4ef0b72.js"><link rel="prefetch" href="/assets/js/104.6a6e15df.js"><link rel="prefetch" href="/assets/js/105.b903fc73.js"><link rel="prefetch" href="/assets/js/106.120b6ef8.js"><link rel="prefetch" href="/assets/js/107.183baab8.js"><link rel="prefetch" href="/assets/js/108.a46125b3.js"><link rel="prefetch" href="/assets/js/109.a6b75d4a.js"><link rel="prefetch" href="/assets/js/11.ecb88b90.js"><link rel="prefetch" href="/assets/js/110.872bf45f.js"><link rel="prefetch" href="/assets/js/111.55fb2219.js"><link rel="prefetch" href="/assets/js/112.cf433c3e.js"><link rel="prefetch" href="/assets/js/114.b63336d5.js"><link rel="prefetch" href="/assets/js/115.30ed6789.js"><link rel="prefetch" href="/assets/js/116.be205bdd.js"><link rel="prefetch" href="/assets/js/117.9918fee3.js"><link rel="prefetch" href="/assets/js/118.d42683db.js"><link rel="prefetch" href="/assets/js/119.d0a2b089.js"><link rel="prefetch" href="/assets/js/12.02cd2a15.js"><link rel="prefetch" href="/assets/js/120.df6aa3a5.js"><link rel="prefetch" href="/assets/js/121.b3b82837.js"><link rel="prefetch" href="/assets/js/122.ffc5b164.js"><link rel="prefetch" href="/assets/js/123.929aac98.js"><link rel="prefetch" href="/assets/js/124.8de188fd.js"><link rel="prefetch" href="/assets/js/125.1bc22568.js"><link rel="prefetch" href="/assets/js/126.9942454f.js"><link rel="prefetch" href="/assets/js/127.9a52cdec.js"><link rel="prefetch" href="/assets/js/128.79b62415.js"><link rel="prefetch" href="/assets/js/129.68d37ac4.js"><link rel="prefetch" href="/assets/js/13.10b4dd92.js"><link rel="prefetch" href="/assets/js/130.d7188079.js"><link rel="prefetch" href="/assets/js/131.66cf8690.js"><link rel="prefetch" href="/assets/js/132.3ee5cd6c.js"><link rel="prefetch" href="/assets/js/133.1c25b676.js"><link rel="prefetch" href="/assets/js/134.209332c0.js"><link rel="prefetch" href="/assets/js/135.10bd9f96.js"><link rel="prefetch" href="/assets/js/136.14f189b0.js"><link rel="prefetch" href="/assets/js/137.8a749f99.js"><link rel="prefetch" href="/assets/js/138.eb028c77.js"><link rel="prefetch" href="/assets/js/139.058b93bb.js"><link rel="prefetch" href="/assets/js/14.e6850cc2.js"><link rel="prefetch" href="/assets/js/140.68597593.js"><link rel="prefetch" href="/assets/js/141.68c8a7eb.js"><link rel="prefetch" href="/assets/js/15.95e87905.js"><link rel="prefetch" href="/assets/js/16.d6241028.js"><link rel="prefetch" href="/assets/js/17.bbe9099d.js"><link rel="prefetch" href="/assets/js/18.95686bb9.js"><link rel="prefetch" href="/assets/js/19.0c54fdea.js"><link rel="prefetch" href="/assets/js/20.fad4fe11.js"><link rel="prefetch" href="/assets/js/21.382f9943.js"><link rel="prefetch" href="/assets/js/22.6e4667b8.js"><link rel="prefetch" href="/assets/js/23.cb7daf7e.js"><link rel="prefetch" href="/assets/js/24.8dd93d87.js"><link rel="prefetch" href="/assets/js/25.210caebe.js"><link rel="prefetch" href="/assets/js/26.696805b4.js"><link rel="prefetch" href="/assets/js/27.b9412463.js"><link rel="prefetch" href="/assets/js/28.3440c485.js"><link rel="prefetch" href="/assets/js/29.64f9f6e7.js"><link rel="prefetch" href="/assets/js/30.7a469612.js"><link rel="prefetch" href="/assets/js/31.b6ac671a.js"><link rel="prefetch" href="/assets/js/32.82b3f912.js"><link rel="prefetch" href="/assets/js/33.8c53c823.js"><link rel="prefetch" href="/assets/js/34.bfcd5eee.js"><link rel="prefetch" href="/assets/js/35.f49e888b.js"><link rel="prefetch" href="/assets/js/36.3983295b.js"><link rel="prefetch" href="/assets/js/37.b7105a68.js"><link rel="prefetch" href="/assets/js/38.51879e84.js"><link rel="prefetch" href="/assets/js/39.2755a238.js"><link rel="prefetch" href="/assets/js/4.fb8205bd.js"><link rel="prefetch" href="/assets/js/40.d97e4230.js"><link rel="prefetch" href="/assets/js/41.4f5b9ccf.js"><link rel="prefetch" href="/assets/js/42.db3fa3be.js"><link rel="prefetch" href="/assets/js/43.3bce0b28.js"><link rel="prefetch" href="/assets/js/44.97a9049b.js"><link rel="prefetch" href="/assets/js/45.8186f51b.js"><link rel="prefetch" href="/assets/js/46.fba02efb.js"><link rel="prefetch" href="/assets/js/47.6a857c3a.js"><link rel="prefetch" href="/assets/js/48.ded03fbc.js"><link rel="prefetch" href="/assets/js/49.ea1353db.js"><link rel="prefetch" href="/assets/js/5.6a0f60a6.js"><link rel="prefetch" href="/assets/js/50.97458297.js"><link rel="prefetch" href="/assets/js/51.02034c87.js"><link rel="prefetch" href="/assets/js/52.f1579159.js"><link rel="prefetch" href="/assets/js/53.6f1ff859.js"><link rel="prefetch" href="/assets/js/54.f2a69fb5.js"><link rel="prefetch" href="/assets/js/55.c7b12dc9.js"><link rel="prefetch" href="/assets/js/56.0ca217b5.js"><link rel="prefetch" href="/assets/js/57.6f4276d0.js"><link rel="prefetch" href="/assets/js/58.1352a64d.js"><link rel="prefetch" href="/assets/js/59.c3e79146.js"><link rel="prefetch" href="/assets/js/6.ec8640e0.js"><link rel="prefetch" href="/assets/js/60.f49bb8c3.js"><link rel="prefetch" href="/assets/js/61.2bc4a88e.js"><link rel="prefetch" href="/assets/js/62.03384664.js"><link rel="prefetch" href="/assets/js/63.389fc9ad.js"><link rel="prefetch" href="/assets/js/64.591e0cfb.js"><link rel="prefetch" href="/assets/js/65.f50d14d3.js"><link rel="prefetch" href="/assets/js/66.d0485a1c.js"><link rel="prefetch" href="/assets/js/67.2f92d559.js"><link rel="prefetch" href="/assets/js/68.b3d0faa6.js"><link rel="prefetch" href="/assets/js/69.e2f0a5ac.js"><link rel="prefetch" href="/assets/js/7.62b76217.js"><link rel="prefetch" href="/assets/js/70.18d9a90a.js"><link rel="prefetch" href="/assets/js/71.8f50ca33.js"><link rel="prefetch" href="/assets/js/72.cba158bc.js"><link rel="prefetch" href="/assets/js/73.28127578.js"><link rel="prefetch" href="/assets/js/74.dd8561ec.js"><link rel="prefetch" href="/assets/js/75.348f2a20.js"><link rel="prefetch" href="/assets/js/76.90a6739b.js"><link rel="prefetch" href="/assets/js/77.a6f46bac.js"><link rel="prefetch" href="/assets/js/78.b7f52b5b.js"><link rel="prefetch" href="/assets/js/79.7fe45327.js"><link rel="prefetch" href="/assets/js/80.51c15354.js"><link rel="prefetch" href="/assets/js/81.682654d3.js"><link rel="prefetch" href="/assets/js/82.03df169a.js"><link rel="prefetch" href="/assets/js/83.a3ee1976.js"><link rel="prefetch" href="/assets/js/84.7df22530.js"><link rel="prefetch" href="/assets/js/85.92fbade5.js"><link rel="prefetch" href="/assets/js/86.83689fee.js"><link rel="prefetch" href="/assets/js/87.64621257.js"><link rel="prefetch" href="/assets/js/88.ea3de387.js"><link rel="prefetch" href="/assets/js/89.4dccfc6b.js"><link rel="prefetch" href="/assets/js/9.ccfe8787.js"><link rel="prefetch" href="/assets/js/90.e24bd334.js"><link rel="prefetch" href="/assets/js/91.598d68cc.js"><link rel="prefetch" href="/assets/js/92.1a010c41.js"><link rel="prefetch" href="/assets/js/93.09832b65.js"><link rel="prefetch" href="/assets/js/94.38273b7a.js"><link rel="prefetch" href="/assets/js/95.b71da59f.js"><link rel="prefetch" href="/assets/js/96.bc6ebffa.js"><link rel="prefetch" href="/assets/js/97.ac3751f2.js"><link rel="prefetch" href="/assets/js/98.c26995ca.js"><link rel="prefetch" href="/assets/js/99.6788ca38.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.a981b4ce.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-dad8a512><div data-v-dad8a512><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-dad8a512 data-v-dad8a512><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-64685f0e data-v-dad8a512 data-v-dad8a512><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>极客小祥</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>小祥</span>
+            
+          <span data-v-64685f0e>2018 - </span>
+          2021
+        </a></span></div></div> <div class="hide" data-v-dad8a512><header class="navbar" data-v-dad8a512><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/logo.png" alt="极客小祥" class="logo"> <span class="site-name">极客小祥</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/2018/" class="nav-link"><i class="iconfont undefined"></i>
+  2018
+</a></li><li class="dropdown-item"><!----> <a href="/categories/2019/" class="nav-link"><i class="iconfont undefined"></i>
+  2019
+</a></li><li class="dropdown-item"><!----> <a href="/categories/2020/" class="nav-link"><i class="iconfont undefined"></i>
+  2020
+</a></li><li class="dropdown-item"><!----> <a href="/categories/2021/" class="nav-link"><i class="iconfont undefined"></i>
+  2021
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/docs/about.html" class="nav-link"><i class="iconfont reco-account"></i>
+  关于
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      我的
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/JTXYH" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.zhihu.com/people/xiao-xiang-36-50" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-zhihu"></i>
+  知乎
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-dad8a512></div> <aside class="sidebar" data-v-dad8a512><div class="personal-info-wrapper" data-v-ca798c94 data-v-dad8a512><img src="/avatar.png" alt="author-avatar" class="personal-img" data-v-ca798c94> <h3 class="name" data-v-ca798c94>
+    小祥
+  </h3> <div class="num" data-v-ca798c94><div data-v-ca798c94><h3 data-v-ca798c94>128</h3> <h6 data-v-ca798c94>文章</h6></div> <div data-v-ca798c94><h3 data-v-ca798c94>21</h3> <h6 data-v-ca798c94>标签</h6></div></div> <hr data-v-ca798c94></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/2018/" class="nav-link"><i class="iconfont undefined"></i>
+  2018
+</a></li><li class="dropdown-item"><!----> <a href="/categories/2019/" class="nav-link"><i class="iconfont undefined"></i>
+  2019
+</a></li><li class="dropdown-item"><!----> <a href="/categories/2020/" class="nav-link"><i class="iconfont undefined"></i>
+  2020
+</a></li><li class="dropdown-item"><!----> <a href="/categories/2021/" class="nav-link"><i class="iconfont undefined"></i>
+  2021
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><a href="/docs/about.html" class="nav-link"><i class="iconfont reco-account"></i>
+  关于
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      我的
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/JTXYH" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://www.zhihu.com/people/xiao-xiang-36-50" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-zhihu"></i>
+  知乎
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-64685f0e data-v-dad8a512><h3 class="title" style="display:none;" data-v-64685f0e data-v-64685f0e>SpringCloudAlibaba</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-64685f0e data-v-64685f0e><input type="password" value="" data-v-64685f0e> <span data-v-64685f0e>Konck! Knock!</span> <button data-v-64685f0e>OK</button></label> <div class="footer" style="display:none;" data-v-64685f0e data-v-64685f0e><span data-v-64685f0e><i class="iconfont reco-theme" data-v-64685f0e></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-64685f0e>vuePress-theme-reco</a></span> <span data-v-64685f0e><i class="iconfont reco-copyright" data-v-64685f0e></i> <a data-v-64685f0e><span data-v-64685f0e>小祥</span>
+            
+          <span data-v-64685f0e>2018 - </span>
+          2021
+        </a></span></div></div> <div data-v-dad8a512><main class="page"><div class="page-title" style="display:none;"><h1>SpringCloudAlibaba</h1> <div data-v-3b7f5bdf><i class="iconfont reco-account" data-v-3b7f5bdf><span data-v-3b7f5bdf>小祥</span></i> <i class="iconfont reco-date" data-v-3b7f5bdf><span data-v-3b7f5bdf>2020-05-17</span></i> <i class="iconfont reco-eye" data-v-3b7f5bdf><span id="/blogs/2020/87-SpringCloudAlibaba.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-3b7f5bdf><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="iconfont reco-tag tags" data-v-3b7f5bdf><span class="tag-item" data-v-3b7f5bdf>微服务</span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><div class="custom-block tip"><p>最流行的微服务框架</p></div> <h2 id="简介"><a href="#简介" class="header-anchor">#</a> 简介</h2> <p><a data-fancybox="" title="SpringCloud-Alibaba功能" href="https://gitee.com/jtxyh/blogImg/raw/master/SpringCloud-alibaba功能.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/SpringCloud-alibaba%E5%8A%9F%E8%83%BD.png" alt="SpringCloud-Alibaba功能"></a></p> <h2 id="nacos服务注册与配置中心"><a href="#nacos服务注册与配置中心" class="header-anchor">#</a> Nacos服务注册与配置中心</h2> <p><strong>Nacos = Eureka + Config + Bus</strong></p> <h3 id="下载安装"><a href="#下载安装" class="header-anchor">#</a> 下载安装</h3> <p>下载**<a href="https://github.com/alibaba/nacos/releases/tag/1.2.1" target="_blank" rel="noopener noreferrer">nacos1.2.1版本<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>**</p> <p><strong>centos启动</strong></p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 进入 bin目录</span>
+<span class="token function">sh</span> startup.sh -m standalone
+</code></pre></div><p>访问</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 默认用户名和密码是nacos</span>
+http://192.168.0.23:8848/nacos/
+</code></pre></div><h3 id="注册服务"><a href="#注册服务" class="header-anchor">#</a> 注册服务</h3> <p>nacos自带<strong>负载均衡</strong>，整合了Ribbon</p> <p><strong>父工程pom</strong></p> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependencyManagement</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependencies</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.alibaba.cloud<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-cloud-alibaba-dependencies<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>2.1.0.RELEASE<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>type</span><span class="token punctuation">&gt;</span></span>pom<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>type</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>scope</span><span class="token punctuation">&gt;</span></span>import<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>scope</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependencies</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependencyManagement</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p><strong>子工程pom</strong></p> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.alibaba.cloud<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-cloud-starter-alibaba-nacos-discovery<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-starter-actuator<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p><strong>yml</strong></p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">server</span><span class="token punctuation">:</span>
+  <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">9001</span>
+
+<span class="token key atrule">spring</span><span class="token punctuation">:</span>
+  <span class="token key atrule">application</span><span class="token punctuation">:</span>
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> nacos<span class="token punctuation">-</span>payment<span class="token punctuation">-</span>provider
+  <span class="token key atrule">cloud</span><span class="token punctuation">:</span>
+    <span class="token key atrule">nacos</span><span class="token punctuation">:</span>
+      <span class="token key atrule">discovery</span><span class="token punctuation">:</span>
+        <span class="token key atrule">server-addr</span><span class="token punctuation">:</span> 192.168.0.23<span class="token punctuation">:</span><span class="token number">8848</span> <span class="token comment">#配置Nacos地址</span>
+
+<span class="token key atrule">management</span><span class="token punctuation">:</span>
+  <span class="token key atrule">endpoints</span><span class="token punctuation">:</span>
+    <span class="token key atrule">web</span><span class="token punctuation">:</span>
+      <span class="token key atrule">exposure</span><span class="token punctuation">:</span>
+        <span class="token key atrule">include</span><span class="token punctuation">:</span> <span class="token string">'*'</span>
+</code></pre></div><p><strong>启动类</strong></p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@SpringBootApplication</span>
+<span class="token annotation punctuation">@EnableDiscoveryClient</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">PaymentMain9001</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">SpringApplication</span><span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">PaymentMain9001</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span>args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="nacos切换ap和cp"><a href="#nacos切换ap和cp" class="header-anchor">#</a> nacos切换AP和CP</h3> <p><a data-fancybox="" title="nacos切换AP和CP" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos切换AP和CP.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos%E5%88%87%E6%8D%A2AP%E5%92%8CCP.png" alt="nacos切换AP和CP"></a></p> <h3 id="配置中心"><a href="#配置中心" class="header-anchor">#</a> 配置中心</h3> <p><a data-fancybox="" title="nacos的yml配置文件" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos的yml.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos%E7%9A%84yml.png" alt="nacos的yml配置文件"></a></p> <p><strong>pom</strong></p> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token comment">&lt;!--nacos-config--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.alibaba.cloud<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-cloud-starter-alibaba-nacos-config<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!--nacos-discovery--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.alibaba.cloud<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-cloud-starter-alibaba-nacos-discovery<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p><strong>boostrap.yml</strong></p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">server</span><span class="token punctuation">:</span>
+  <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">3377</span>
+
+<span class="token key atrule">spring</span><span class="token punctuation">:</span>
+  <span class="token key atrule">application</span><span class="token punctuation">:</span>
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> nacos<span class="token punctuation">-</span>config<span class="token punctuation">-</span>client
+  <span class="token key atrule">cloud</span><span class="token punctuation">:</span>
+    <span class="token key atrule">nacos</span><span class="token punctuation">:</span>
+      <span class="token key atrule">discovery</span><span class="token punctuation">:</span>
+        <span class="token key atrule">server-addr</span><span class="token punctuation">:</span> localhost<span class="token punctuation">:</span><span class="token number">8848</span> <span class="token comment">#服务注册中心地址</span>
+      <span class="token key atrule">config</span><span class="token punctuation">:</span>
+        <span class="token key atrule">server-addr</span><span class="token punctuation">:</span> localhost<span class="token punctuation">:</span><span class="token number">8848</span> <span class="token comment">#配置中心地址</span>
+        <span class="token key atrule">file-extension</span><span class="token punctuation">:</span> yaml <span class="token comment">#指定yaml格式的配置</span>
+        <span class="token key atrule">group</span><span class="token punctuation">:</span> TEST_GROUP <span class="token comment">#默认：DEFAULT_GROUP</span>
+        <span class="token key atrule">namespace</span><span class="token punctuation">:</span> 00ab1957<span class="token punctuation">-</span>eb3f<span class="token punctuation">-</span>4555<span class="token punctuation">-</span>96ca<span class="token punctuation">-</span>3d20817e854d <span class="token comment">#命名空间id 默认：public</span>
+        <span class="token comment"># 读取多个配置文件</span>
+        <span class="token key atrule">ext-config</span><span class="token punctuation">:</span>
+          <span class="token punctuation">-</span> <span class="token key atrule">data-id</span><span class="token punctuation">:</span> test.yml
+            <span class="token key atrule">group</span><span class="token punctuation">:</span> dev
+            <span class="token comment"># 是否动态刷新</span>
+            <span class="token key atrule">refresh</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+          <span class="token punctuation">-</span> <span class="token key atrule">data-id</span><span class="token punctuation">:</span> test2.yml
+            <span class="token key atrule">group</span><span class="token punctuation">:</span> dev
+            <span class="token key atrule">refresh</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+
+<span class="token comment"># 读取格式</span>
+<span class="token comment"># ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}</span>
+<span class="token comment"># nacos-config-client-dev.yaml</span>
+</code></pre></div><p><strong>application.yml</strong></p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">spring</span><span class="token punctuation">:</span>
+  <span class="token key atrule">profiles</span><span class="token punctuation">:</span>
+    <span class="token key atrule">active</span><span class="token punctuation">:</span> dev
+</code></pre></div><p><strong>启动类</strong></p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@EnableDiscoveryClient</span>
+<span class="token annotation punctuation">@SpringBootApplication</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">NacosConfigClientMain3377</span><span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">SpringApplication</span><span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">NacosConfigClientMain3377</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>业务类</strong></p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@RestController</span>
+<span class="token comment">//支持nacos的动态刷新</span>
+<span class="token annotation punctuation">@RefreshScope</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">ConfigClientController</span><span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Value</span><span class="token punctuation">(</span><span class="token string">&quot;${config.info}&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span> <span class="token class-name">String</span> configInfo<span class="token punctuation">;</span>
+
+    <span class="token annotation punctuation">@GetMapping</span><span class="token punctuation">(</span><span class="token string">&quot;/config/info&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span> <span class="token class-name">String</span> <span class="token function">getConfigInfo</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> configInfo<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h4 id="配置id规则"><a href="#配置id规则" class="header-anchor">#</a> 配置Id规则</h4> <p><strong>prefix</strong>默认为<strong>spring.application.name</strong>的值</p> <p><strong>spring.profile.active</strong>既为<strong>当前环境对应的profile</strong>,可以通过配置项spring.profile.active</p> <p><strong>file-exetension</strong>为配置<strong>内容的数据格式</strong>，可以通过配置项spring.cloud.nacos.config.file-extension配置</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token variable">${spring.application.name}</span>-<span class="token variable">${spring.profile.active}</span><span class="token builtin class-name">.</span><span class="token variable">${spring.cloud.nacos.config.file-extension}</span>
+</code></pre></div><p><a data-fancybox="" title="nacos配置解析" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos配置解析.bmp"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos%E9%85%8D%E7%BD%AE%E8%A7%A3%E6%9E%90.bmp" alt="nacos配置解析"></a></p> <h3 id="分类配置"><a href="#分类配置" class="header-anchor">#</a> 分类配置</h3> <p><a data-fancybox="" title="config分组简介" href="https://gitee.com/jtxyh/blogImg/raw/master/config分组简介.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/config%E5%88%86%E7%BB%84%E7%AE%80%E4%BB%8B.png" alt="config分组简介"></a></p> <h4 id="dataid方案"><a href="#dataid方案" class="header-anchor">#</a> DataID方案</h4> <p>指定<strong>spring.profile.active</strong>和配置文件的DataID来使不同环境下读取不同的配置</p> <p><a data-fancybox="" title="nacos-config-DataId配置" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos-config-DataId配置.bmp"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos-config-DataId%E9%85%8D%E7%BD%AE.bmp" alt="nacos-config-DataId配置"></a></p> <h4 id="group方案"><a href="#group方案" class="header-anchor">#</a> Group方案</h4> <p><a data-fancybox="" title="Group-config分组配置" href="https://gitee.com/jtxyh/blogImg/raw/master/Group-config分组配置.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/Group-config%E5%88%86%E7%BB%84%E9%85%8D%E7%BD%AE.png" alt="Group-config分组配置"></a></p> <p><a data-fancybox="" title="yml中添加Group组配置" href="https://gitee.com/jtxyh/blogImg/raw/master/yml中添加Group组配置.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/yml%E4%B8%AD%E6%B7%BB%E5%8A%A0Group%E7%BB%84%E9%85%8D%E7%BD%AE.png" alt="yml中添加Group组配置"></a></p> <h4 id="namespace方案"><a href="#namespace方案" class="header-anchor">#</a> NameSpace方案</h4> <p><a data-fancybox="" title="config-namspace新建命名空间" href="https://gitee.com/jtxyh/blogImg/raw/master/config-namspace新建命名空间.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/config-namspace%E6%96%B0%E5%BB%BA%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4.png" alt="config-namspace新建命名空间"></a></p> <p><a data-fancybox="" title="config-namespace配置yml" href="https://gitee.com/jtxyh/blogImg/raw/master/config-namespace配置yml.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/config-namespace%E9%85%8D%E7%BD%AEyml.png" alt="config-namespace配置yml"></a></p> <h2 id="nacos集群"><a href="#nacos集群" class="header-anchor">#</a> Nacos集群</h2> <h3 id="切换到mysql数据库"><a href="#切换到mysql数据库" class="header-anchor">#</a> 切换到Mysql数据库</h3> <p>nacos默认自带的是<strong>嵌入式数据库derby</strong> <a data-fancybox="" title="Nacos数据存储1" href="https://gitee.com/jtxyh/blogImg/raw/master/Nacos数据存储.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/Nacos%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8.png" alt="Nacos数据存储1"></a> <a data-fancybox="" title="Nacos数据存储2" href="https://gitee.com/jtxyh/blogImg/raw/master/Nacos数据存储2.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/Nacos%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A82.png" alt="Nacos数据存储2"></a></p> <p><strong>切换数据源</strong> <a data-fancybox="" title="nacos切换数据库执行脚本" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos切换数据库执行脚本.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos%E5%88%87%E6%8D%A2%E6%95%B0%E6%8D%AE%E5%BA%93%E6%89%A7%E8%A1%8C%E8%84%9A%E6%9C%AC.png" alt="nacos切换数据库执行脚本"></a> <a data-fancybox="" title="nacos修改application文件" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos修改application文件.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos%E4%BF%AE%E6%94%B9application%E6%96%87%E4%BB%B6.png" alt="nacos修改application文件"></a></p> <p><strong>application文件添加以下内容</strong></p> <div class="language-properties extra-class"><pre class="language-properties"><code><span class="token attr-name">spring.datasource.platform</span><span class="token punctuation">=</span><span class="token attr-value">mysql</span>
+ 
+<span class="token attr-name">db.num</span><span class="token punctuation">=</span><span class="token attr-value">1</span>
+<span class="token attr-name">db.url.0</span><span class="token punctuation">=</span><span class="token attr-value">jdbc:mysql://localhost:3306/nacos_config?characterEncoding=utf8&amp;connectTimeout=1000&amp;socketTimeout=3000&amp;autoReconnect=true</span>
+<span class="token attr-name">db.user</span><span class="token punctuation">=</span><span class="token attr-value">数据库用户名</span>
+<span class="token attr-name">db.password</span><span class="token punctuation">=</span><span class="token attr-value">数据库密码</span>
+</code></pre></div><h3 id="配置cluster文件"><a href="#配置cluster文件" class="header-anchor">#</a> 配置cluster文件</h3> <p><a data-fancybox="" title="nacos集群配置文件cluster" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos集群配置文件cluster.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos%E9%9B%86%E7%BE%A4%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6cluster.png" alt="nacos集群配置文件cluster"></a> <a data-fancybox="" title="nacos集群配置文件cluster内容" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos集群配置文件cluster内容.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos%E9%9B%86%E7%BE%A4%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6cluster%E5%86%85%E5%AE%B9.png" alt="nacos集群配置文件cluster内容"></a></p> <h3 id="修改startup-sh脚本"><a href="#修改startup-sh脚本" class="header-anchor">#</a> 修改startup.sh脚本</h3> <p><a data-fancybox="" title="nacos修改startup脚本" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos修改startup脚本.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos%E4%BF%AE%E6%94%B9startup%E8%84%9A%E6%9C%AC.png" alt="nacos修改startup脚本"></a> <a data-fancybox="" title="nacos修改startup脚本2" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos修改startup脚本2.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos%E4%BF%AE%E6%94%B9startup%E8%84%9A%E6%9C%AC2.png" alt="nacos修改startup脚本2"></a></p> <p>使用新命令启动</p> <div class="language-shell extra-class"><pre class="language-shell"><code>./startup.sh -p <span class="token number">3333</span>
+./startup.sh -p <span class="token number">4444</span>
+./startup.sh -p <span class="token number">5555</span>
+</code></pre></div><h3 id="配置nginx"><a href="#配置nginx" class="header-anchor">#</a> 配置Nginx</h3> <p><a data-fancybox="" title="nacos集群修改nginx配置.png" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos集群修改nginx配置.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos%E9%9B%86%E7%BE%A4%E4%BF%AE%E6%94%B9nginx%E9%85%8D%E7%BD%AE.png" alt="nacos集群修改nginx配置.png"></a></p> <p>添加配置</p> <div class="language-conf extra-class"><pre class="language-text"><code>upstream cluster{                                                        
+    server 127.0.0.1:3333;
+    server 127.0.0.1:4444;
+    server 127.0.0.1:5555;
+}
+server{
+    listen 1111;
+    server_name localhost;
+    location /{
+            proxy_pass http://cluster;
+    }
+}
+</code></pre></div><p><a data-fancybox="" title="nacos集群nginx启动" href="https://gitee.com/jtxyh/blogImg/raw/master/nacos集群nginx启动.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/nacos%E9%9B%86%E7%BE%A4nginx%E5%90%AF%E5%8A%A8.png" alt="nacos集群nginx启动"></a></p> <p><strong>通过nginx访问nacos集群</strong></p> <div class="language-shell extra-class"><pre class="language-shell"><code>https://写你自己虚拟机的ip:1111/nacos/<span class="token comment">#/login</span>
+</code></pre></div><p><strong>配置服务进集群</strong></p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">server-addr</span><span class="token punctuation">:</span>  写你自己的虚拟机ip<span class="token punctuation">:</span><span class="token number">1111</span>
+</code></pre></div><h2 id="seata分布式事务"><a href="#seata分布式事务" class="header-anchor">#</a> Seata分布式事务</h2> <h3 id="简介-2"><a href="#简介-2" class="header-anchor">#</a> 简介</h3> <ul><li><p><strong>XID</strong>
+全局事务唯一ID</p></li> <li><p><strong>TC - 事务协调者</strong>
+维护全局和分支事务的状态，驱动全局事务提交或回滚。</p></li> <li><p><strong>TM - 事务管理器</strong>
+定义全局事务的范围：开始全局事务、提交或回滚全局事务。</p></li> <li><p><strong>RM - 资源管理器</strong>
+管理分支事务处理的资源，与TC交谈以注册分支事务和报告分支事务的状态，并驱动分支事务提交或回滚。</p></li></ul> <p><strong>处理流程</strong></p> <ol><li>TM向TC申请开启一个全局事务，全局事务创建成功并创建生成一个全局唯一的XID</li> <li>XID在微服务调用链路的上下文中传播</li> <li>RM向TC注册支事务，将其纳入XID对应全局事务的管辖</li> <li>TM向TC发起针对XID的全局提交或回滚决议</li> <li>TC调度XID下管辖的全部分支事务完成提交或回滚请求</li></ol> <p><a data-fancybox="" title="seata处理流程" href="https://gitee.com/jtxyh/blogImg/raw/master/seata处理流程.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/seata%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.png" alt="seata处理流程"></a></p> <h3 id="使用"><a href="#使用" class="header-anchor">#</a> 使用</h3> <p><a href="https://github.com/seata/seata/releases" target="_blank" rel="noopener noreferrer">Github下载<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>修改<strong>file.conf文件</strong></p> <p><a data-fancybox="" title="修改file.conf文件" href="https://gitee.com/jtxyh/blogImg/raw/master/seata修改file.conf文件.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/seata%E4%BF%AE%E6%94%B9file.conf%E6%96%87%E4%BB%B6.png" alt="修改file.conf文件"></a></p> <p>修改<strong>registry文件</strong></p> <p><a data-fancybox="" title="修改registry.conf文件" href="https://gitee.com/jtxyh/blogImg/raw/master/seata修改registry.conf文件.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/seata%E4%BF%AE%E6%94%B9registry.conf%E6%96%87%E4%BB%B6.png" alt="修改registry.conf文件"></a></p> <p>添加<strong>数据库seata</strong>，运行sql脚本</p> <div class="language-sql extra-class"><pre class="language-sql"><code><span class="token keyword">drop</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token keyword">exists</span> <span class="token punctuation">`</span>global_table<span class="token punctuation">`</span><span class="token punctuation">;</span>
+<span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token punctuation">`</span>global_table<span class="token punctuation">`</span> <span class="token punctuation">(</span>
+  <span class="token punctuation">`</span>xid<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">128</span><span class="token punctuation">)</span>  <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>transaction_id<span class="token punctuation">`</span> <span class="token keyword">bigint</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span><span class="token keyword">status</span><span class="token punctuation">`</span> <span class="token keyword">tinyint</span> <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>application_id<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>transaction_service_group<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>transaction_name<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">128</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>timeout<span class="token punctuation">`</span> <span class="token keyword">int</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>begin_time<span class="token punctuation">`</span> <span class="token keyword">bigint</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>application_data<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">2000</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>gmt_create<span class="token punctuation">`</span> <span class="token keyword">datetime</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>gmt_modified<span class="token punctuation">`</span> <span class="token keyword">datetime</span><span class="token punctuation">,</span>
+  <span class="token keyword">primary</span> <span class="token keyword">key</span> <span class="token punctuation">(</span><span class="token punctuation">`</span>xid<span class="token punctuation">`</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token keyword">key</span> <span class="token punctuation">`</span>idx_gmt_modified_status<span class="token punctuation">`</span> <span class="token punctuation">(</span><span class="token punctuation">`</span>gmt_modified<span class="token punctuation">`</span><span class="token punctuation">,</span> <span class="token punctuation">`</span><span class="token keyword">status</span><span class="token punctuation">`</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token keyword">key</span> <span class="token punctuation">`</span>idx_transaction_id<span class="token punctuation">`</span> <span class="token punctuation">(</span><span class="token punctuation">`</span>transaction_id<span class="token punctuation">`</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+<span class="token comment">-- the table to store BranchSession data</span>
+<span class="token keyword">drop</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token keyword">exists</span> <span class="token punctuation">`</span>branch_table<span class="token punctuation">`</span><span class="token punctuation">;</span>
+<span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token punctuation">`</span>branch_table<span class="token punctuation">`</span> <span class="token punctuation">(</span>
+  <span class="token punctuation">`</span>branch_id<span class="token punctuation">`</span> <span class="token keyword">bigint</span> <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>xid<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">128</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>transaction_id<span class="token punctuation">`</span> <span class="token keyword">bigint</span> <span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>resource_group_id<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>resource_id<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">256</span><span class="token punctuation">)</span> <span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>lock_key<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">128</span><span class="token punctuation">)</span> <span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>branch_type<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">)</span> <span class="token punctuation">,</span>
+  <span class="token punctuation">`</span><span class="token keyword">status</span><span class="token punctuation">`</span> <span class="token keyword">tinyint</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>client_id<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">64</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>application_data<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">2000</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>gmt_create<span class="token punctuation">`</span> <span class="token keyword">datetime</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>gmt_modified<span class="token punctuation">`</span> <span class="token keyword">datetime</span><span class="token punctuation">,</span>
+  <span class="token keyword">primary</span> <span class="token keyword">key</span> <span class="token punctuation">(</span><span class="token punctuation">`</span>branch_id<span class="token punctuation">`</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token keyword">key</span> <span class="token punctuation">`</span>idx_xid<span class="token punctuation">`</span> <span class="token punctuation">(</span><span class="token punctuation">`</span>xid<span class="token punctuation">`</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+<span class="token comment">-- the table to store lock data</span>
+<span class="token keyword">drop</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token keyword">exists</span> <span class="token punctuation">`</span>lock_table<span class="token punctuation">`</span><span class="token punctuation">;</span>
+<span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token punctuation">`</span>lock_table<span class="token punctuation">`</span> <span class="token punctuation">(</span>
+  <span class="token punctuation">`</span>row_key<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">128</span><span class="token punctuation">)</span> <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>xid<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">96</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>transaction_id<span class="token punctuation">`</span> long <span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>branch_id<span class="token punctuation">`</span> long<span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>resource_id<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">256</span><span class="token punctuation">)</span> <span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>table_name<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">)</span> <span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>pk<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">36</span><span class="token punctuation">)</span> <span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>gmt_create<span class="token punctuation">`</span> <span class="token keyword">datetime</span> <span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>gmt_modified<span class="token punctuation">`</span> <span class="token keyword">datetime</span><span class="token punctuation">,</span>
+  <span class="token keyword">primary</span> <span class="token keyword">key</span><span class="token punctuation">(</span><span class="token punctuation">`</span>row_key<span class="token punctuation">`</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>在需要使用seata的数据库中增加<strong>undo.log表</strong></p> <div class="language-sql extra-class"><pre class="language-sql"><code><span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> <span class="token punctuation">`</span>undo_log<span class="token punctuation">`</span> <span class="token punctuation">(</span>
+  <span class="token punctuation">`</span>id<span class="token punctuation">`</span> <span class="token keyword">bigint</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span> <span class="token keyword">AUTO_INCREMENT</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>branch_id<span class="token punctuation">`</span> <span class="token keyword">bigint</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>xid<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>context<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">128</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>rollback_info<span class="token punctuation">`</span> <span class="token keyword">longblob</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>log_status<span class="token punctuation">`</span> <span class="token keyword">int</span><span class="token punctuation">(</span><span class="token number">11</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>log_created<span class="token punctuation">`</span> <span class="token keyword">datetime</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>log_modified<span class="token punctuation">`</span> <span class="token keyword">datetime</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+  <span class="token punctuation">`</span>ext<span class="token punctuation">`</span> <span class="token keyword">varchar</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span> <span class="token keyword">DEFAULT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>
+  <span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span><span class="token punctuation">`</span>id<span class="token punctuation">`</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token keyword">UNIQUE</span> <span class="token keyword">KEY</span> <span class="token punctuation">`</span>ux_undo_log<span class="token punctuation">`</span> <span class="token punctuation">(</span><span class="token punctuation">`</span>xid<span class="token punctuation">`</span><span class="token punctuation">,</span><span class="token punctuation">`</span>branch_id<span class="token punctuation">`</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span> <span class="token keyword">ENGINE</span><span class="token operator">=</span><span class="token keyword">InnoDB</span> <span class="token keyword">AUTO_INCREMENT</span><span class="token operator">=</span><span class="token number">1</span> <span class="token keyword">DEFAULT</span> <span class="token keyword">CHARSET</span><span class="token operator">=</span>utf8<span class="token punctuation">;</span>
+</code></pre></div><p>java的<strong>pom中引入</strong></p> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.alibaba.cloud<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-cloud-starter-alibaba-seata<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+  <span class="token comment">&lt;!-- 这里排除默认版本 --&gt;</span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>exclusions</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>exclusion</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>seata-all<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>io.seata<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>exclusion</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>exclusions</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- 引入自己下载的版本 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>io.seata<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>seata-all<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">&gt;</span></span>1.0.0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>yml文件配置</p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">spring</span><span class="token punctuation">:</span>
+  <span class="token key atrule">application</span><span class="token punctuation">:</span>
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> qiannong<span class="token punctuation">-</span>payment<span class="token punctuation">-</span><span class="token number">10003</span>
+  <span class="token key atrule">cloud</span><span class="token punctuation">:</span>
+    <span class="token key atrule">alibaba</span><span class="token punctuation">:</span>
+      <span class="token key atrule">seata</span><span class="token punctuation">:</span>
+        <span class="token key atrule">tx-service-group</span><span class="token punctuation">:</span> file.conf中自定义的名字 <span class="token comment"># 这里的名字就是在file中自定义的名字</span>
+</code></pre></div><p><strong>添加file.conf和register.conf配置文件到resource中</strong></p> <div class="language-conf extra-class"><pre class="language-text"><code># file.conf
+
+transport {
+  # tcp udt unix-domain-socket
+  type = &quot;TCP&quot;
+  #NIO NATIVE
+  server = &quot;NIO&quot;
+  #enable heartbeat
+  heartbeat = true
+  #thread factory for netty
+  thread-factory {
+    boss-thread-prefix = &quot;NettyBoss&quot;
+    worker-thread-prefix = &quot;NettyServerNIOWorker&quot;
+    server-executor-thread-prefix = &quot;NettyServerBizHandler&quot;
+    share-boss-worker = false
+    client-selector-thread-prefix = &quot;NettyClientSelector&quot;
+    client-selector-thread-size = 1
+    client-worker-thread-prefix = &quot;NettyClientWorkerThread&quot;
+    # netty boss thread size,will not be used for UDT
+    boss-thread-size = 1
+    #auto default pin or 8
+    worker-thread-size = 8
+  }
+  shutdown {
+    # when destroy server, wait seconds
+    wait = 3
+  }
+  serialization = &quot;seata&quot;
+  compressor = &quot;none&quot;
+}
+
+service {
+  # 这里的.后面是在file.conf中定义的名字
+  vgroup_mapping.yunle = &quot;default&quot;
+  # 指定ip地址
+  default.grouplist = &quot;192.168.0.18:8091&quot;
+  enableDegrade = false
+  disable = false
+  max.commit.retry.timeout = &quot;-1&quot;
+  max.rollback.retry.timeout = &quot;-1&quot;
+  disableGlobalTransaction = false
+}
+
+
+client {
+  async.commit.buffer.limit = 10000
+  lock {
+    retry.internal = 10
+    retry.times = 30
+  }
+  report.retry.count = 5
+  tm.commit.retry.count = 1
+  tm.rollback.retry.count = 1
+}
+
+store {
+  # 修改成db
+  mode = &quot;db&quot;
+
+  file {
+    dir = &quot;sessionStore&quot;
+
+    max-branch-session-size = 16384
+    max-global-session-size = 512
+    file-write-buffer-cache-size = 16384
+    session.reload.read_size = 100
+    flush-disk-mode = async
+  }
+
+  db {
+    datasource = &quot;dbcp&quot;
+    db-type = &quot;mysql&quot;
+    driver-class-name = &quot;com.mysql.jdbc.Driver&quot;
+    url = &quot;jdbc:mysql://127.0.0.1:3307/seata&quot;
+    user = &quot;root&quot;
+    password = &quot;root&quot;
+    min-conn = 1
+    max-conn = 3
+    global.table = &quot;global_table&quot;
+    branch.table = &quot;branch_table&quot;
+    lock-table = &quot;lock_table&quot;
+    query-limit = 100
+  }
+}
+lock {
+  mode = &quot;remote&quot;
+
+  local {
+  }
+
+  remote {
+  }
+}
+recovery {
+  committing-retry-period = 1000
+  asyn-committing-retry-period = 1000
+  rollbacking-retry-period = 1000
+  timeout-retry-period = 1000
+}
+
+transaction {
+  undo.data.validation = true
+  undo.log.serialization = &quot;jackson&quot;
+  undo.log.save.days = 7
+  undo.log.delete.period = 86400000
+  undo.log.table = &quot;undo_log&quot;
+}
+
+metrics {
+  enabled = false
+  registry-type = &quot;compact&quot;
+  exporter-list = &quot;prometheus&quot;
+  exporter-prometheus-port = 9898
+}
+
+support {
+  spring {
+    datasource.autoproxy = false
+  }
+}
+</code></pre></div><div class="language-conf extra-class"><pre class="language-text"><code># register.conf
+registry {
+  # file 、nacos 、eureka、redis、zk、consul、etcd3、sofa
+  # 使用自己的注册中心
+  type = &quot;nacos&quot;
+
+  nacos {
+    # 注册中心地址
+    serverAddr = &quot;192.168.0.18:8848&quot;
+    namespace = &quot;&quot;
+    cluster = &quot;default&quot;
+  }
+  eureka {
+    serviceUrl = &quot;http://localhost:8761/eureka&quot;
+    application = &quot;default&quot;
+    weight = &quot;1&quot;
+  }
+  redis {
+    serverAddr = &quot;localhost:6379&quot;
+    db = &quot;0&quot;
+  }
+  zk {
+    cluster = &quot;default&quot;
+    serverAddr = &quot;127.0.0.1:2181&quot;
+    session.timeout = 6000
+    connect.timeout = 2000
+  }
+  consul {
+    cluster = &quot;default&quot;
+    serverAddr = &quot;127.0.0.1:8500&quot;
+  }
+  etcd3 {
+    cluster = &quot;default&quot;
+    serverAddr = &quot;http://localhost:2379&quot;
+  }
+  sofa {
+    serverAddr = &quot;127.0.0.1:9603&quot;
+    application = &quot;default&quot;
+    region = &quot;DEFAULT_ZONE&quot;
+    datacenter = &quot;DefaultDataCenter&quot;
+    cluster = &quot;default&quot;
+    group = &quot;SEATA_GROUP&quot;
+    addressWaitTime = &quot;3000&quot;
+  }
+  file {
+    name = &quot;file.conf&quot;
+  }
+}
+
+config {
+  # file、nacos 、apollo、zk、consul、etcd3
+  type = &quot;file&quot;
+
+  nacos {
+    serverAddr = &quot;localhost&quot;
+    namespace = &quot;&quot;
+  }
+  consul {
+    serverAddr = &quot;127.0.0.1:8500&quot;
+  }
+  apollo {
+    app.id = &quot;seata-server&quot;
+    apollo.meta = &quot;http://192.168.1.204:8801&quot;
+  }
+  zk {
+    serverAddr = &quot;127.0.0.1:2181&quot;
+    session.timeout = 6000
+    connect.timeout = 2000
+  }
+  etcd3 {
+    serverAddr = &quot;http://localhost:2379&quot;
+  }
+  file {
+    name = &quot;file.conf&quot;
+  }
+}
+</code></pre></div><p><strong>切换默认数据源</strong></p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token comment">// 排除默认状态数据源</span>
+<span class="token annotation punctuation">@SpringBootApplication</span><span class="token punctuation">(</span>exclude <span class="token operator">=</span> <span class="token class-name">DataSourceAutoConfiguration</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span>
+<span class="token annotation punctuation">@EnableDiscoveryClient</span>
+<span class="token annotation punctuation">@EnableFeignClients</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">ShopMain</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">SpringApplication</span><span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token class-name">ShopMain</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-java extra-class"><pre class="language-java"><code><span class="token comment">// 改为seata代理</span>
+
+<span class="token annotation punctuation">@Configuration</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">DataSourceProxyConfig</span> <span class="token punctuation">{</span>
+
+
+    <span class="token annotation punctuation">@Value</span><span class="token punctuation">(</span><span class="token string">&quot;${mybatis.mapper-locations}&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">private</span> <span class="token class-name">String</span> mapperLocations<span class="token punctuation">;</span>
+
+
+    <span class="token annotation punctuation">@Bean</span>
+    <span class="token annotation punctuation">@ConfigurationProperties</span><span class="token punctuation">(</span>prefix <span class="token operator">=</span> <span class="token string">&quot;spring.datasource.druid&quot;</span><span class="token punctuation">)</span>
+    <span class="token keyword">public</span> <span class="token class-name">DataSource</span> <span class="token function">druidDataSource</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">DruidDataSource</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+
+    <span class="token annotation punctuation">@Bean</span>
+    <span class="token keyword">public</span> <span class="token class-name">DataSourceProxy</span> <span class="token function">dataSourceProxy</span><span class="token punctuation">(</span><span class="token class-name">DataSource</span> dataSource<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">DataSourceProxy</span><span class="token punctuation">(</span>dataSource<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+
+    <span class="token annotation punctuation">@Bean</span>
+    <span class="token keyword">public</span> <span class="token class-name">SqlSessionFactory</span> <span class="token function">sqlSessionFactoryBean</span><span class="token punctuation">(</span><span class="token class-name">DataSourceProxy</span> dataSourceProxy<span class="token punctuation">)</span> <span class="token keyword">throws</span> <span class="token class-name">Exception</span> <span class="token punctuation">{</span>
+        <span class="token class-name">SqlSessionFactoryBean</span> sqlSessionFactoryBean <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SqlSessionFactoryBean</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        sqlSessionFactoryBean<span class="token punctuation">.</span><span class="token function">setDataSource</span><span class="token punctuation">(</span>dataSourceProxy<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        sqlSessionFactoryBean<span class="token punctuation">.</span><span class="token function">setMapperLocations</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">PathMatchingResourcePatternResolver</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getResources</span><span class="token punctuation">(</span>mapperLocations<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        sqlSessionFactoryBean<span class="token punctuation">.</span><span class="token function">setTransactionFactory</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">SpringManagedTransactionFactory</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> sqlSessionFactoryBean<span class="token punctuation">.</span><span class="token function">getObject</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+<span class="token punctuation">}</span>
+</code></pre></div><p><strong>在需要使用事务的方法上加</strong></p> <div class="language-java extra-class"><pre class="language-java"><code><span class="token comment">//调用发生异常时回滚。</span>
+<span class="token annotation punctuation">@GlobalTransactional</span><span class="token punctuation">(</span>name <span class="token operator">=</span> <span class="token string">&quot;自定义的名字&quot;</span><span class="token punctuation">,</span>rollbackFor <span class="token operator">=</span> <span class="token class-name">Exception</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span>
+</code></pre></div><p><strong>先启动注册中心==》再启动seata==》再启动业务</strong></p> <p><strong>Linux启动</strong></p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">nohup</span> <span class="token function">sh</span> seata-server.sh -p <span class="token number">8091</span> -h <span class="token number">127.0</span>.0.1 -m <span class="token function">file</span> <span class="token operator">&amp;&gt;</span> seata.log <span class="token operator">&amp;</span>
+</code></pre></div><h2 id="sentinel限流"><a href="#sentinel限流" class="header-anchor">#</a> Sentinel限流</h2> <h3 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h3> <h4 id="docker安装"><a href="#docker安装" class="header-anchor">#</a> docker安装</h4> <div class="language-shell extra-class"><pre class="language-shell"><code>docker run --name sentinel -d -p <span class="token number">8858</span>:8858 -p <span class="token number">8791</span>:8791 -d bladex/sentinel-dashboard:1.7.0
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 访问，默认用户名和密码是sentinel</span>
+http://localhost:8858
+</code></pre></div><h4 id="下载安装-2"><a href="#下载安装-2" class="header-anchor">#</a> 下载安装</h4> <p><a href="https://github.com/alibaba/Sentinel/releases" target="_blank" rel="noopener noreferrer">sentinel下载<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 前台启动</span>
+java -Dserver.port<span class="token operator">=</span><span class="token number">8080</span> -Dcsp.sentinel.dashboard.server<span class="token operator">=</span>localhost:8080 -Dproject.name<span class="token operator">=</span>sentinel-dashboard -jar sentinel-dashboard.jar
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 后台启动</span>
+<span class="token function">nohup</span> java -Dserver.port<span class="token operator">=</span><span class="token number">8080</span> -Dcsp.sentinel.dashboard.server<span class="token operator">=</span>localhost:8080 -Dproject.name<span class="token operator">=</span>sentinel-dashboard -jar sentinel-dashboard.jar <span class="token operator">&amp;&gt;</span> sentinel.log <span class="token operator">&amp;</span>
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code><span class="token comment"># 访问，默认用户名和密码是sentinel</span>
+http://localhost:8080
+</code></pre></div><h3 id="流控"><a href="#流控" class="header-anchor">#</a> 流控</h3> <p><a data-fancybox="" title="sentinel限流规则解释" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流规则解释.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E8%A7%84%E5%88%99%E8%A7%A3%E9%87%8A.png" alt="sentinel限流规则解释"></a></p> <p><a data-fancybox="" title="sentinel限流规则1" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流规则1.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E8%A7%84%E5%88%991.png" alt="sentinel限流规则1"></a></p> <p><a data-fancybox="" title="sentinel限流规则2" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流规则2.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E8%A7%84%E5%88%992.png" alt="sentinel限流规则2"></a></p> <p><a data-fancybox="" title="sentinel限流规则3" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流规则3.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E8%A7%84%E5%88%993.png" alt="sentinel限流规则3"></a></p> <p><a data-fancybox="" title="sentinel限流规则4" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流规则4.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E8%A7%84%E5%88%994.png" alt="sentinel限流规则4"></a></p> <p><a data-fancybox="" title="sentinel匀速排队限流" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel匀速排队限流.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E5%8C%80%E9%80%9F%E6%8E%92%E9%98%9F%E9%99%90%E6%B5%81.png" alt="sentinel匀速排队限流"></a></p> <h3 id="降级"><a href="#降级" class="header-anchor">#</a> 降级</h3> <p><a data-fancybox="" title="sentinel降级解释" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel降级解释.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%8D%E7%BA%A7%E8%A7%A3%E9%87%8A.png" alt="sentinel降级解释"></a></p> <p><a data-fancybox="" title="sentinel降级1" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流降级1.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E9%99%8D%E7%BA%A71.png" alt="sentinel降级1"></a></p> <p><a data-fancybox="" title="sentinel降级2" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流降级2.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E9%99%8D%E7%BA%A72.png" alt="sentinel降级2"></a></p> <p><a data-fancybox="" title="sentinel降级3" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流降级3.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E9%99%8D%E7%BA%A73.png" alt="sentinel降级3"></a></p> <p><a data-fancybox="" title="sentinel降级4" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流降级4.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E9%99%8D%E7%BA%A74.png" alt="sentinel降级4"></a></p> <p><a data-fancybox="" title="sentinel降级5" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流降级5.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E9%99%8D%E7%BA%A75.png" alt="sentinel降级5"></a></p> <h3 id="热点key限流"><a href="#热点key限流" class="header-anchor">#</a> 热点key限流</h3> <p><a data-fancybox="" title="sentinel热点key1" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流热点key1.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E7%83%AD%E7%82%B9key1.png" alt="sentinel热点key1"></a></p> <p><a data-fancybox="" title="sentinel热点key2" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流热点key2.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E7%83%AD%E7%82%B9key2.png" alt="sentinel热点key2"></a></p> <p><a data-fancybox="" title="sentinel热点key3" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流热点key3.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E7%83%AD%E7%82%B9key3.png" alt="sentinel热点key3"></a></p> <p><a data-fancybox="" title="sentinel热点key4" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel限流热点key4.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E9%99%90%E6%B5%81%E7%83%AD%E7%82%B9key4.png" alt="sentinel热点key4"></a></p> <h3 id="系统规则"><a href="#系统规则" class="header-anchor">#</a> 系统规则</h3> <p><a data-fancybox="" title="sentinel系统规则限流" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel系统规则限流.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E7%B3%BB%E7%BB%9F%E8%A7%84%E5%88%99%E9%99%90%E6%B5%81.png" alt="sentinel系统规则限流"></a></p> <h3 id="sentinelresource"><a href="#sentinelresource" class="header-anchor">#</a> @SentinelResource</h3> <div class="language-java extra-class"><pre class="language-java"><code><span class="token annotation punctuation">@GetMapping</span><span class="token punctuation">(</span><span class="token string">&quot;/a/get&quot;</span><span class="token punctuation">)</span>
+<span class="token comment">// 设置兜底方法为MyBlockHandler类中的handException方法</span>
+<span class="token annotation punctuation">@SentinelResource</span><span class="token punctuation">(</span>value<span class="token operator">=</span><span class="token string">&quot;get&quot;</span><span class="token punctuation">,</span>blockHandlerClass<span class="token operator">=</span><span class="token class-name">MyBlockHandler</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span>blockHandler<span class="token operator">=</span><span class="token string">&quot;handException&quot;</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token class-name">CommResult</span> <span class="token function">getInfo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">CommResult</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span><span class="token string">&quot;成功&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;xxx&quot;</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-java extra-class"><pre class="language-java"><code><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">MyBlockHandler</span><span class="token punctuation">{</span>
+
+  <span class="token comment">// 必须是static的方法</span>
+  <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token class-name">CommResult</span> <span class="token function">handException</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">CommResult</span><span class="token punctuation">(</span><span class="token number">444</span><span class="token punctuation">,</span><span class="token string">&quot;失败&quot;</span><span class="token punctuation">,</span><span class="token string">&quot;yyy&quot;</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p><a data-fancybox="" title="sentinel注解自定义处理限流返回信息" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel注解自定义处理限流返回信息.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E6%B3%A8%E8%A7%A3%E8%87%AA%E5%AE%9A%E4%B9%89%E5%A4%84%E7%90%86%E9%99%90%E6%B5%81%E8%BF%94%E5%9B%9E%E4%BF%A1%E6%81%AF.png" alt="sentinel注解自定义处理限流返回信息"></a></p> <p><a data-fancybox="" title="sentinel注解自定义处理限流返回信息2" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel注解自定义处理限流返回信息2.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E6%B3%A8%E8%A7%A3%E8%87%AA%E5%AE%9A%E4%B9%89%E5%A4%84%E7%90%86%E9%99%90%E6%B5%81%E8%BF%94%E5%9B%9E%E4%BF%A1%E6%81%AF2.png" alt="sentinel注解自定义处理限流返回信息2"></a></p> <h3 id="springboot使用"><a href="#springboot使用" class="header-anchor">#</a> SpringBoot使用</h3> <p><strong>pom</strong></p> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token comment">&lt;!-- 需引入SpringCloudAlibaba和SpringCloud和Springboot相关依赖 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.alibaba.cloud<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-cloud-starter-alibaba-sentinel<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>spring-boot-starter-webflux<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p><strong>yml</strong></p> <div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">spring</span><span class="token punctuation">:</span>
+  <span class="token key atrule">cloud</span><span class="token punctuation">:</span>
+    <span class="token key atrule">sentinel</span><span class="token punctuation">:</span>
+      <span class="token key atrule">transport</span><span class="token punctuation">:</span>
+        <span class="token comment"># 如果是docker启动就是8858端口，正常启动未指定端口就是8080</span>
+        <span class="token key atrule">dashboard</span><span class="token punctuation">:</span> 192.168.0.18<span class="token punctuation">:</span><span class="token number">8858</span>
+        <span class="token comment"># 本地用户和sentinel通信的端口</span>
+        <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">8719</span>
+        <span class="token comment"># 指定ip是防止多个ip时无法找到，可以不指定</span>
+        <span class="token key atrule">client-ip</span><span class="token punctuation">:</span> 192.168.0.11
+<span class="token key atrule">management</span><span class="token punctuation">:</span>
+  <span class="token key atrule">endpoints</span><span class="token punctuation">:</span>
+    <span class="token key atrule">web</span><span class="token punctuation">:</span>
+      <span class="token key atrule">exposure</span><span class="token punctuation">:</span>
+        <span class="token key atrule">include</span><span class="token punctuation">:</span> <span class="token string">'*'</span>
+<span class="token comment"># 打开对feign的支持</span>
+<span class="token key atrule">feign</span><span class="token punctuation">:</span>
+  <span class="token key atrule">sentinel</span><span class="token punctuation">:</span>
+    <span class="token key atrule">enabled</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+</code></pre></div><h3 id="规则持久化"><a href="#规则持久化" class="header-anchor">#</a> 规则持久化</h3> <h4 id="下载sentinel源码包"><a href="#下载sentinel源码包" class="header-anchor">#</a> 下载sentinel源码包</h4> <p><a href="https://github.com/alibaba/Sentinel/releases" target="_blank" rel="noopener noreferrer">源码包下载<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p><a data-fancybox="" title="sentinel持久化1" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel持久化1.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E6%8C%81%E4%B9%85%E5%8C%961.png" alt="sentinel持久化1"></a> <a data-fancybox="" title="sentinel持久化2" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel持久化2.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E6%8C%81%E4%B9%85%E5%8C%962.png" alt="sentinel持久化2"></a> <a data-fancybox="" title="sentinel持久化3" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel持久化3.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E6%8C%81%E4%B9%85%E5%8C%963.png" alt="sentinel持久化3"></a> <a data-fancybox="" title="sentinel持久化4" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel持久化4.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E6%8C%81%E4%B9%85%E5%8C%964.png" alt="sentinel持久化4"></a> <a data-fancybox="" title="sentinel持久化5" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel持久化5.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E6%8C%81%E4%B9%85%E5%8C%965.png" alt="sentinel持久化5"></a> <a data-fancybox="" title="sentinel持久化6" href="https://gitee.com/jtxyh/blogImg/raw/master/sentinel持久化6.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/sentinel%E6%8C%81%E4%B9%85%E5%8C%966.png" alt="sentinel持久化6"></a></p> <p><strong>修改完成后打jar包运行</strong></p> <h4 id="客户端使用"><a href="#客户端使用" class="header-anchor">#</a> 客户端使用</h4> <div class="language-xml extra-class"><pre class="language-xml"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">&gt;</span></span>com.alibaba.csp<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">&gt;</span></span>sentinel-datasource-nacos<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-yml extra-class"><pre class="language-yml"><code><span class="token key atrule">spring</span><span class="token punctuation">:</span>
+  <span class="token key atrule">application</span><span class="token punctuation">:</span>
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> cloudalibaba<span class="token punctuation">-</span>sentinel<span class="token punctuation">-</span>service
+  <span class="token key atrule">cloud</span><span class="token punctuation">:</span>
+    <span class="token key atrule">nacos</span><span class="token punctuation">:</span>
+      <span class="token key atrule">discovery</span><span class="token punctuation">:</span>
+        <span class="token key atrule">server-addr</span><span class="token punctuation">:</span> localhost<span class="token punctuation">:</span><span class="token number">8848</span> <span class="token comment">#Nacos服务注册中心地址</span>
+    <span class="token key atrule">sentinel</span><span class="token punctuation">:</span>
+      <span class="token key atrule">transport</span><span class="token punctuation">:</span>
+        <span class="token key atrule">dashboard</span><span class="token punctuation">:</span> localhost<span class="token punctuation">:</span><span class="token number">8080</span> <span class="token comment">#配置Sentinel dashboard地址</span>
+        <span class="token key atrule">port</span><span class="token punctuation">:</span> <span class="token number">8719</span>
+      <span class="token key atrule">datasource</span><span class="token punctuation">:</span>
+        <span class="token key atrule">d1</span><span class="token punctuation">:</span>
+          <span class="token key atrule">nacos</span><span class="token punctuation">:</span>
+            <span class="token key atrule">server-addr</span><span class="token punctuation">:</span> localhost<span class="token punctuation">:</span><span class="token number">8848</span>
+            <span class="token key atrule">dataId</span><span class="token punctuation">:</span> $<span class="token punctuation">{</span>spring.application.name<span class="token punctuation">}</span><span class="token punctuation">-</span>flow<span class="token punctuation">-</span>rules
+            <span class="token key atrule">namespace</span><span class="token punctuation">:</span> sentinel<span class="token punctuation">-</span>nacos
+            <span class="token key atrule">groupId</span><span class="token punctuation">:</span> SENTINEL_GROUP
+            <span class="token key atrule">rule-type</span><span class="token punctuation">:</span> flow
+</code></pre></div><h3 id="其他"><a href="#其他" class="header-anchor">#</a> 其他</h3> <p><a data-fancybox="" title="熔断框架对比1" href="https://gitee.com/jtxyh/blogImg/raw/master/熔断框架对比1.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/%E7%86%94%E6%96%AD%E6%A1%86%E6%9E%B6%E5%AF%B9%E6%AF%941.png" alt="熔断框架对比1"></a> <a data-fancybox="" title="熔断框架对比2" href="https://gitee.com/jtxyh/blogImg/raw/master/熔断框架对比2.png"><img src="https://gitee.com/jtxyh/blogImg/raw/master/%E7%86%94%E6%96%AD%E6%A1%86%E6%9E%B6%E5%AF%B9%E6%AF%942.png" alt="熔断框架对比2"></a></p> <h3 id="注意"><a href="#注意" class="header-anchor">#</a> 注意</h3> <p>如果实时监控面板<strong>没有图表数据，但簇点链路有数据</strong>，说明是客户端的时间和服务端时间不一致</p></div> <footer class="page-edit" style="display:none;"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">2021/6/19 下午5:19:37</span></div></footer> <!----> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><!----></div></div>
+    <script src="/assets/js/app.52ca2be6.js" defer></script><script src="/assets/js/3.42113961.js" defer></script><script src="/assets/js/1.b24bece2.js" defer></script><script src="/assets/js/113.f0b58158.js" defer></script><script src="/assets/js/8.48e90622.js" defer></script>
+  </body>
+</html>
